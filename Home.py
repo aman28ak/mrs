@@ -64,12 +64,7 @@ if st.button('Recommend'):
     with col5:
         st.text(names[4])
         st.image(posters[4])
-    with col6:
-        st.text(names[5])
-        st.image(posters[5])
-    with col7:
-        st.text(names[6])
-        st.image(posters[6])
+ 
 
 
 st.write("This movie recommendation system uses machine learning algorithms and data analysis techniques to provide personalized movie recommendations to users, making it easier for users to discover new movies and enjoy their movie-watching experience.")
